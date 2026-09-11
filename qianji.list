@@ -1,7 +1,0 @@
-#!name=钱迹直连
-#!desc=钱迹 App 直连规则
-
-HOST-SUFFIX,qianjiapp.com,DIRECT
-HOST-SUFFIX,xxoojoke.com,DIRECT
-HOST-SUFFIX,litangkj.com,DIRECT
-HOST-SUFFIX,qianjibillimage.kodo-accelerate.cn-south-1.qiniucs.com,DIRECT
