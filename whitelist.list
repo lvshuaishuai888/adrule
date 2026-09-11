@@ -1,5 +1,5 @@
 #!name=白名单
-#!desc=自用白名单规则，放行指定域名，避免被广告/隐私规则误拦截
+#!desc=自用白名单规则，避免指定域名被广告规则误拦截
 
 # ==================== 钱迹 ====================
 
@@ -10,5 +10,7 @@ HOST-SUFFIX,qianjibillimage.kodo-accelerate.cn-south-1.qiniucs.com,DIRECT
 
 # ==================== 字节系 ====================
 
-HOST-SUFFIX,zijieapi.com,DIRECT
-HOST-SUFFIX,amemv.com,DIRECT
+HOST-SUFFIX,ad.zijieapi.com,DIRECT
+HOST-SUFFIX,mssdk.zijieapi.com,DIRECT
+HOST-SUFFIX,vcs.zijieapi.com,DIRECT
+HOST-SUFFIX,log.amemv.com,DIRECT
