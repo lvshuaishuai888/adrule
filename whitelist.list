@@ -8,9 +8,4 @@ HOST-SUFFIX,xxoojoke.com,DIRECT
 HOST-SUFFIX,litangki.com,DIRECT
 HOST-SUFFIX,qianjibillimage.kodo-accelerate.cn-south-1.qiniucs.com,DIRECT
 
-# ==================== 字节系 ====================
 
-HOST-SUFFIX,ad.zijieapi.com,DIRECT
-HOST-SUFFIX,mssdk.zijieapi.com,DIRECT
-HOST-SUFFIX,vcs.zijieapi.com,DIRECT
-HOST-SUFFIX,log.amemv.com,DIRECT
