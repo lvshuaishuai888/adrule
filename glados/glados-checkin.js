@@ -2,6 +2,15 @@
  * GLaDOS Auto Check-in for Quantumult X
  * Version: 2.0.0
  *
+ * Based on:
+ * https://github.com/Walvez/glados-auto-checkin
+ *
+ * Original project:
+ * Copyright (c) 2026 Walvez
+ * Licensed under the MIT License.
+ *
+ * Modified for personal Quantumult X usage.
+ *
  * 功能：
  * 1. Safari 登录 GLaDOS 时自动保存 Cookie / Authorization
  * 2. 定时 / 手动自动签到
