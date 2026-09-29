@@ -1,0 +1,8 @@
+#!name=GLaDOS 自动签到
+#!desc=GLaDOS Quantumult X 自动签到（自托管版）
+
+[rewrite_local]
+^https:\/\/(glados\.(network|rocks|one|space|cloud|vip)|glados-facility\.com)\/.* url script-request-header https://raw.githubusercontent.com/lvshuaishuai888/adrule/main/glados/glados-checkin.js
+
+[mitm]
+hostname = %APPEND% glados.network, glados.rocks, glados.one, glados.space, glados.cloud, glados.vip, glados-facility.com
