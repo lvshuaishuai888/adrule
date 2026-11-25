@@ -8,4 +8,15 @@ HOST-SUFFIX,xxoojoke.com,DIRECT
 HOST-SUFFIX,litangki.com,DIRECT
 HOST-SUFFIX,qianjibillimage.kodo-accelerate.cn-south-1.qiniucs.com,DIRECT
 
+# ==================== 直连 ====================
+
+# 兑吧。将 duiba.com.cn 及其子域名加入直连白名单。
+HOST-SUFFIX,duiba.com.cn,DIRECT
+
+# 中国建设银行。覆盖 ccb.com 官网及其子域名。
+HOST-SUFFIX,ccb.com,DIRECT
+
+# 交通银行信用卡「买单吧」。覆盖 bankcomm.com 及其子域名，包括买单吧登录和信用卡官网。
+HOST-SUFFIX,bankcomm.com,DIRECT
+
 
