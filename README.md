@@ -31,7 +31,7 @@ adrule/
   `ad.txt`           AdBlock / ABP 格式广告拦截规则
   `qx.conf`          Quantumult X Rewrite 自定义规则
   `whitelist.list`   Quantumult X 直连白名单
-  `glados/`          GLaDOS Quantumult X 自动签到相关文件
+  `glados/`          GLaDOS 自动签到历史文件（已失效）
 
 ------------------------------------------------------------------------
 
@@ -65,25 +65,9 @@ https://raw.githubusercontent.com/lvshuaishuai888/adrule/main/whitelist.list
 
 ------------------------------------------------------------------------
 
-## 🤖 GLaDOS 自动签到
+## 🤖 GLaDOS 自动签到（已失效）
 
-`glados/` 目录提供 Quantumult X 下的 GLaDOS 自动签到功能。
-
-主要支持：
-
--   Safari 登录时自动获取 Cookie / Authorization
--   登录凭据保存在 Quantumult X 本地
--   定时自动签到
--   手动执行签到
--   查询积分及剩余天数
--   详细运行日志及通知
--   当天成功后避免重复签到
--   网络异常及部分 HTTP 错误自动重试
--   GLaDOS 请求域名白名单限制
-
-详细安装、配置、安全说明及使用方法：
-
-👉 **[GLaDOS 自动签到使用说明](./glados/README.md)**
+GLaDOS 自动签到已失效，`glados/` 目录仅保留供历史查阅。已在 Quantumult X 中引用相关重写或签到任务的用户，可以停用对应条目。
 
 ------------------------------------------------------------------------
 
@@ -105,18 +89,6 @@ https://raw.githubusercontent.com/lvshuaishuai888/adrule/main/ad.txt
 
 ``` text
 https://raw.githubusercontent.com/lvshuaishuai888/adrule/main/whitelist.list
-```
-
-### GLaDOS Rewrite
-
-``` text
-https://raw.githubusercontent.com/lvshuaishuai888/adrule/main/glados/glados.snippet
-```
-
-### GLaDOS 自动签到脚本
-
-``` text
-https://raw.githubusercontent.com/lvshuaishuai888/adrule/main/glados/glados-checkin.js
 ```
 
 ------------------------------------------------------------------------
